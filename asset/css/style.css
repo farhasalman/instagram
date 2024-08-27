@@ -1,0 +1,220 @@
+.box{
+    width: 400px;
+    height: 450px;
+    border: 1px solid black;
+    position: relative;
+   
+    
+} 
+.box .insta img{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.loginform{
+    position:absolute;
+    top:30%;
+    left:15%;
+}
+.loginform input{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(220, 220, 232);
+}
+#input2{
+    width: 200px;
+}
+#show{
+    height: 35px;
+    cursor: pointer;
+}
+#login{
+    width:258px ;
+    height:27px;
+    background-color:rgb(28, 142, 203);
+    color: aliceblue;
+    cursor: pointer;
+}
+.seperator{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    
+}
+.line{
+    flex: 1;
+    height: 1px;
+    background-color:#8e8e8e;
+}
+.seperator p{
+    margin: 10px;
+    color: #8e8e8e;
+}
+
+.facebook-login{
+    background-color: transparent;
+    /* border: 1px solid black; */
+    border: none;
+    width: 258px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(11, 11, 100);
+    
+}
+
+#atag{
+    position: absolute;
+    bottom: 1%;
+    left: 50px;
+    color: black;
+    text-decoration: none;
+    color: rgb(6, 6, 63);
+    
+}
+.signup{
+    width: 400px;
+    height: 50px;
+    top: 102%;
+    border: 1px solid black;
+    position: absolute;
+
+}
+.signup p{
+    position: absolute;
+    left: 15%;
+}
+.signup p a{
+    color: rgb(109, 109, 220);
+    text-decoration: none;
+}
+
+.getapp{
+    position: absolute;
+    top: 115%;
+    left:35% ;
+}
+.pics{
+    display: flex;
+    position: absolute;
+    top: 125%;
+    left:5% ;
+    margin:px;
+}
+
+
+
+.container{
+    position: relative;
+    width: 500px; 
+    height: 500px; 
+}
+.background-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.overlap-image1 {
+    position: absolute;
+    top: 24%; 
+    left: 35%; 
+    width: 50%; 
+    height: 90%;
+    opacity: 0.8; /* Adjusts transparency level */
+}
+.overlap-image2 {
+    position: absolute;
+    top: 24%; 
+    left: 35%; 
+    width: 50%; 
+    height: 90%;
+    opacity: 0.1; 
+}
+.overlap-image3 {
+    position: absolute;
+    top: 24%; 
+    left: 35%; 
+    width: 50%; 
+    height: 90%;
+    opacity: 0.2; 
+}
+.overlap-image4 {
+    position: absolute;
+    top: 24%; 
+    left: 35%; 
+    width: 50%; 
+    height: 90%;
+    opacity: 0.1; 
+}
+.overlap-image5 {
+    position: absolute;
+    top: 24%; 
+    left: 35%; 
+    width: 50%; 
+    height: 90%;
+    opacity: 0.1; 
+}
+.complete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    
+    
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 12px;
+    color: #8e8e8e;
+    background-color: #fafafa;
+    position: absolute;
+    top: 100%;
+    left: 30%;
+}
+
+.footer-links {
+   
+    margin: 5px ;
+    display: flex; 
+    
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-bottom span {
+    margin: 0 10px;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
